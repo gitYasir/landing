@@ -28,22 +28,49 @@ export default function Home() {
           priority
         />
         <div className={styles.center}>
-          <form className={css.form}>
+          <form
+            target="_blank"
+            action="https://formsubmit.co/ad71efc73cc8938ab03f0fec5dd0f78f"
+            method="POST"
+            className={css.form}
+          >
             <p className={css.formTitle}>
               Get Your Free Ebook And See Results In Weeks!
             </p>
             <div className={css.inputContainer}>
-              <input placeholder="Name" type="text" />
+              <input type="text" name="name" placeholder="Full Name" required />
             </div>
             <div className={css.inputContainer}>
-              <input placeholder="Email" type="email" />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                required
+              />
             </div>
             <div className={css.inputContainer}>
-              <input placeholder="Company Name" type="text" />
+              <input
+                type="text"
+                name="company"
+                placeholder="Company Name"
+                required
+              />
             </div>
             <button className={css.submit} type="submit">
               Get EBook
             </button>
+            <input type="text" name="_honey" style={{ display: "none" }} />
+            <input type="hidden" name="_replyto" />
+            <input
+              type="hidden"
+              name="_autoresponse"
+              value="<a>https://www.google.co.uk</a>"
+            />
+            <input
+              type="hidden"
+              name="_next"
+              value="http://localhost:3000/thanks"
+            ></input>
           </form>
         </div>
       </main>
