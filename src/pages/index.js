@@ -24,6 +24,7 @@ export default function Home() {
           alt="5 TIPS TO BOOST YOUR BUSINESS"
           width={300}
           height={400}
+          className={styles.image}
           priority
         />
         <div className={styles.center}>
