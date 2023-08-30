@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <Image
-          src="/5 TIPS TO BOOST YOUR BUSINESS.png"
+          src="/5_TIPS_TO_BOOST_YOUR_BUSINESS.png"
           alt="5 TIPS TO BOOST YOUR BUSINESS"
           width={300}
           height={400}
