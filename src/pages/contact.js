@@ -20,9 +20,7 @@ const ThankYouPage = () => {
           className={css.form}
           id="form"
         >
-          <p className={css.formTitle}>
-            Get Your Free Ebook And See Results In Weeks!
-          </p>
+          <p className={css.formTitle}>Contact</p>
           <div className={css.inputContainer}>
             <input type="text" name="name" placeholder="Full Name" required />
           </div>
@@ -38,7 +36,7 @@ const ThankYouPage = () => {
             <textarea name="message" placeholder="Message" required />
           </div>
           <button className={css.submit} type="submit">
-            Get EBook
+            Send
           </button>
           <input type="text" name="_honey" style={{ display: "none" }} />
           <input
@@ -46,7 +44,11 @@ const ThankYouPage = () => {
             name="_next"
             value="https://how-to-attract-more-customers.netlify.app/thanksforcontacting"
           />
-          <input type="hidden" name="_subject" value="New EBook Download!" />
+          <input
+            type="hidden"
+            name="_subject"
+            value="New Contact Form Message!"
+          />
         </form>
       </div>
     </>

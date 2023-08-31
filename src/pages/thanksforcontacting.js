@@ -1,22 +1,7 @@
-import { useEffect } from "react";
 import css from "../styles/thanks.module.css";
 import Head from "next/head";
 
 const ThankYouPage = () => {
-  //   useEffect(() => {
-  //     const downloadPdf = () => {
-  //       const pdfUrl = "/5-TIPS-TO-BOOST-YOUR-BUSINESS.pdf";
-
-  //       const link = document.createElement("a");
-  //       link.href = pdfUrl;
-  //       link.target = "_blank";
-  //       link.download = "5 TIPS TO BOOST YOUR BUSINESS.pdf";
-  //       link.click();
-  //     };
-
-  //     downloadPdf();
-  //   }, []);
-
   return (
     <>
       <Head>

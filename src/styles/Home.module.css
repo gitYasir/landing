@@ -4,6 +4,7 @@
   align-items: center;
   padding: 6rem;
   max-height: 100vh;
+  background: linear-gradient(skyblue, #ffffff);
 }
 
 /* Mobile */
@@ -15,6 +16,7 @@
     align-items: center;
     padding: 6rem;
     max-height: 100vh;
+    background: linear-gradient(skyblue, #ffffff);
   }
 
   .center {

@@ -4,14 +4,14 @@
   justify-content: center;
   align-items: center;
   padding: 6rem;
-  max-height: 100vh;
+  height: 100vh;
+  background: linear-gradient(skyblue, #ffffff, skyblue);
 }
 
 .form {
   background-color: #fff;
   display: block;
   padding: 1rem;
-  margin-bottom: 5rem;
   max-width: 350px;
   border-radius: 0.5rem;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
