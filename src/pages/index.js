@@ -29,10 +29,10 @@ export default function Home() {
         />
         <div className={styles.center}>
           <form
-            target="_blank"
             action="https://formsubmit.co/ad71efc73cc8938ab03f0fec5dd0f78f"
             method="POST"
             className={css.form}
+            id="form"
           >
             <p className={css.formTitle}>
               Get Your Free Ebook And See Results In Weeks!
@@ -60,17 +60,12 @@ export default function Home() {
               Get EBook
             </button>
             <input type="text" name="_honey" style={{ display: "none" }} />
-            <input type="hidden" name="_replyto" />
-            <input
-              type="hidden"
-              name="_autoresponse"
-              value="<a>https://www.google.co.uk</a>"
-            />
             <input
               type="hidden"
               name="_next"
-              value="http://localhost:3000/thanks"
-            ></input>
+              value="https://how-to-attract-more-customers.netlify.app/thanks"
+            />
+            <input type="hidden" name="_subject" value="New EBook Download!" />
           </form>
         </div>
       </main>
