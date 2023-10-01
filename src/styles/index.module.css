@@ -27,6 +27,14 @@
 }
 .imageArea h2 {
   margin: 0 0 2rem;
+  text-wrap: balance;
+  text-align: center;
+}
+.imageArea h2::selection {
+  background: #000;
+}
+.imageArea h2 i u::selection {
+  background: #000;
 }
 .tipsArea {
   display: flex;
@@ -129,7 +137,6 @@
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 500;
-  /* width: 100%; */
   border-radius: 0.5rem;
   text-transform: uppercase;
 }

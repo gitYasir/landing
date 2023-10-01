@@ -32,9 +32,19 @@ export default function Home() {
                   priority
                 />
                 <h2>
-                  You are one step away from <u>supercharging</u> your{" "}
-                  <u>digital</u> presence and{" "}
-                  <u> leaving your competitors in the dust</u>.
+                  You are one step away from{" "}
+                  <i>
+                    <u>supercharging</u>
+                  </i>{" "}
+                  your{" "}
+                  <i>
+                    <u>digital</u>{" "}
+                  </i>
+                  presence and{" "}
+                  <i>
+                    <u> leaving your competitors in the dust</u>
+                  </i>
+                  .
                 </h2>
               </div>
             </div>
