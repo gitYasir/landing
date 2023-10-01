@@ -14,7 +14,7 @@ const ThankYouPage = () => {
         <link rel="icon" href="/ONLINE bUSINESS SOLUTIONS.png" />
       </Head>
       <div className={css.main}>
-        <h1>Thank you for contacting us.</h1>
+        <h1 className={css.headline}>Thank you for contacting us.</h1>
         <div className={css.message}>
           We will get back to you as soon as possible.
         </div>

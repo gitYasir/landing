@@ -2,8 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6rem;
-  max-height: 100vh;
   background: linear-gradient(skyblue, #ffffff);
 }
 
@@ -14,8 +12,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6rem;
-    max-height: 100vh;
     background: linear-gradient(skyblue, #ffffff);
   }
 

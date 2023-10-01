@@ -6,6 +6,14 @@
   flex-direction: column;
   background: linear-gradient(skyblue, #ffffff, skyblue);
 }
+.main p {
+  font-size: large;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.headline {
+  max-width: 85%;
+}
 
 .message {
   max-width: 75vw;
@@ -22,6 +30,5 @@
   }
   .main p {
     text-align: center;
-    width: 80%;
   }
 }
