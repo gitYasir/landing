@@ -3,19 +3,31 @@ import css from "../styles/thanks.module.css";
 import Head from "next/head";
 
 const ThankYouPage = () => {
-  // useEffect(() => {
-  //   const downloadPdf = () => {
-  //     const pdfUrl = "/5-TIPS-TO-BOOST-YOUR-BUSINESS.pdf";
+  const [downloaded, setDownloaded] = useState(false);
 
-  //     const link = document.createElement("a");
-  //     link.href = pdfUrl;
-  //     link.target = "_blank";
-  //     link.download = "5 TIPS TO BOOST YOUR BUSINESS.pdf";
-  //     link.click();
-  //   };
+  useEffect(() => {
+    const downloadPdf = () => {
+      if (!downloaded) {
+        const pdfUrl = "/5-TIPS-TO-BOOST-YOUR-BUSINESS.pdf";
 
-  //   downloadPdf();
-  // }, []);
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.target = "_blank";
+        link.download = "5 TIPS TO BOOST YOUR BUSINESS.pdf";
+        link.click();
+
+        setDownloaded(true);
+
+        localStorage.setItem("pdfDownloaded", "true");
+      }
+    };
+
+    if (localStorage.getItem("pdfDownloaded") === "true") {
+      setDownloaded(true);
+    } else {
+      downloadPdf();
+    }
+  }, [downloaded]);
 
   return (
     <>
