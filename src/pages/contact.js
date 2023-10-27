@@ -49,6 +49,7 @@ const ThankYouPage = () => {
             name="_subject"
             value="New Contact Form Message!"
           />
+          <input type="hidden" name="_captcha" value="false" />
         </form>
       </div>
     </>
