@@ -133,6 +133,7 @@ export default function Home() {
                     name="_subject"
                     value="New EBook Download!"
                   />
+                  <input type="hidden" name="_captcha" value="false" />
                 </div>
               </div>
             </form>
